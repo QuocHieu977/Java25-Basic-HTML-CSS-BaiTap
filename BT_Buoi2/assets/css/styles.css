@@ -19,8 +19,7 @@ input[type="text"], input[type="password"]{
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .btn button {
