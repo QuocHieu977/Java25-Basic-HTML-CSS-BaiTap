@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+
+.col_title {
+  width: 100px;
+}
+
+input[type="text"], input[type="password"]{
+  width: 85%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  margin: 0 10px;
+  cursor: pointer;
+}
