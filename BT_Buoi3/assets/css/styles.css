@@ -45,10 +45,20 @@
   height: 45px;
   color: #fff;
   font-size: 20px;
-  background-color: red;
+  background-color: #ff4013;
   border-radius: 100%;
   margin-right: 18px;
   cursor: pointer;
+}
+
+.image {
+  height: 200px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .title-des {
@@ -77,14 +87,33 @@
 
 .container .icon {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 20px 20px 20px;
+}
+
+.icon-left {
+  width: 90%;
+}
+
+.icon-right {
+  width: 10%;
+}
+
+.icon ul {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.icon ul li {
+  list-style: none;
+}
+
+.icon ul li i {
   font-size: 22px;
   color: rgb(142, 137, 137);
 }
 
-.icon-heart,
+/* .icon-heart,
 .icon-share,
 .icon-down,
 .title-icon {
@@ -103,4 +132,4 @@
 .icon-down:hover,
 .title-icon:hover {
   color: rgb(62, 62, 206);
-}
+} */
