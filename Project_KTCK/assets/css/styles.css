@@ -8,8 +8,8 @@
 
 /* shared class */
 .container {
-  max-width: 1320px;
-  margin: auto;
+  width: 1320px;
+  margin: 0 auto;
 }
 
 ul li {
@@ -91,7 +91,7 @@ a {
 /* top-main */
 .top-main {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   width: 1920px;
   padding-top: 30px;
   padding-bottom: 60px;
@@ -114,7 +114,6 @@ a {
 }
 
 .left {
-  /* rework */
   margin-top: 4px;
   display: flex;
   height: 54px;
@@ -128,7 +127,6 @@ a {
 }
 
 .right {
-  /* rework */
   margin-top: 4px;
   display: flex;
   height: 54px;
@@ -315,7 +313,7 @@ a {
 
 /* body */
 .body-wrap {
-  margin: auto;
+  margin: 0 auto;
   width: 1920px;
   /* height: 800px; */
   background-color: #fff;
@@ -550,7 +548,7 @@ a {
 .brand-banner {
   position: relative;
   margin: 119px auto 0;
-  width: 1920px;
+  max-width: 1920px;
   height: 776px;
   background-image: url("../images/brand/black-bg.png");
 }
